@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.MuiPaper-root {
+  border-radius: 8px;
+}
+
+.MuiButton-root {
+  text-transform: none;
+}
+
+code {
+  background-color: #f5f5f5;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: monospace;
+} 
