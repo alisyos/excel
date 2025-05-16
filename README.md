@@ -9,6 +9,27 @@
 3. **사용자가 셀 정보 입력**: 특정 셀의 위치와 기준 및 조건 등 요구사항을 입력합니다.
 4. **AI가 함수 수식 도출**: 입력된 정보를 바탕으로 정확한 Excel 함수 수식을 생성합니다.
 
+## 배포 정보
+
+- **라이브 링크**: [Excel 함수 생성 도우미](https://excel-fq64tzkr3-alisyos2-gmailcoms-projects.vercel.app)
+- **배포 플랫폼**: Vercel
+
+## 환경 변수 설정
+
+이 애플리케이션은 OpenAI API를 사용하므로 API 키가 필요합니다. 
+
+### Vercel에서 환경 변수 설정하기
+
+1. [Vercel 대시보드](https://vercel.com)에 로그인하세요.
+2. 해당 프로젝트를 선택하세요.
+3. 'Settings' 탭으로 이동하세요.
+4. 'Environment Variables' 섹션을 찾으세요.
+5. 새 환경 변수를 추가하세요:
+   - 이름: `REACT_APP_OPENAI_API_KEY`
+   - 값: OpenAI API 키
+6. 'Save' 버튼을 클릭하세요.
+7. 프로젝트를 재배포하세요.
+
 ## 설치 및 실행 방법
 
 ### 사전 요구사항
@@ -21,8 +42,8 @@
 
 1. 저장소 클론:
    ```
-   git clone <repository-url>
-   cd excel-formula-generator
+   git clone https://github.com/alisyos/excel.git
+   cd excel
    ```
 
 2. 의존성 설치:
@@ -62,5 +83,5 @@ npm start
 
 - React
 - Material-UI
-- OpenAI API (GPT-4)
+- OpenAI API (GPT-4o)
 - Axios 
