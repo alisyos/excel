@@ -83,5 +83,5 @@ npm start
 
 - React
 - Material-UI
-- OpenAI API (GPT-4o)
+- OpenAI API (GPT-4.1)
 - Axios 
